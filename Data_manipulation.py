@@ -4,6 +4,7 @@ import numpy as np
 import PIL as Image
 from os import *
 
+#split images into 244 x 244 blocks
 def process_image(im):
     imarray = np.array(im)
     im_h, im_w = imarray.shape[:2]
@@ -18,3 +19,15 @@ def process_image(im):
             im1.save(path + "\img" + f"{i}" + ".png")
             i+=1
     print("completed")
+
+#was using this to get the names of all folders for the "categories" on the webapp.
+def getNames(directory):
+    lend = len(os.listdir(directory))
+    i = 0
+    for filename in os.listdir(directory):
+        f = os.path.join(directory, filename)
+        i += 1
+        if i != lend:
+            print(str("'")+str(f[42:len(f)])+"',")
+        else:
+            print(str("'")+str(f[42:len(f)])+"'")
