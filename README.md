@@ -6,5 +6,7 @@ This is development code for a convolutional neural network that can take in a 2
 # Performance
 The model is 98.98% accurate.
 
+# <img src="https://github.com/GTHB317/SoFo-22-/blob/main/UMAP.png" width="30%" align="right" /> confusion matrix
+
 # Deployment - In progress
 The model is deployed as a web application at https://huggingface.co/spaces/qile0317/Bacteria-Classification/tree/main
