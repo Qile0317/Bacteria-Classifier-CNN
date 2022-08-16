@@ -4,7 +4,7 @@ This is development code for a convolutional neural network that can take in a 2
 (Note that the cropped dataset is not perfect with some relatively blank images, and removal of those has high potential to further improve performance. A potential solution is to include an extra category "blank" so if an image contains very little bacteria, it is classified as a blank instead of a species.)
 
 # Performance
-The model is 98.98% accurate.
+The model is 98.91% accurate.
 
 <img src="https://github.com/Qile0317/Bacteria-Classifier-CNN/blob/main/ConfusionMatrix.png" width="30%"/>
 
