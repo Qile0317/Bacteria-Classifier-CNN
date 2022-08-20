@@ -8,5 +8,7 @@ The model is 98.91% accurate.
 
 <img src="https://github.com/Qile0317/Bacteria-Classifier-CNN/blob/main/ConfusionMatrix.png" width="30%"/>
 
-# Deployment - In progress
-The model is deployed as a web application at https://huggingface.co/spaces/qile0317/Bacteria-Classification/tree/main
+# Deployment
+The model is deployed as a web application at https://huggingface.co/spaces/qile0317/Bacteria-Classification
+
+All app development code is at: https://huggingface.co/spaces/qile0317/Bacteria-Classification/tree/main
